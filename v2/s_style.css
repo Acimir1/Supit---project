@@ -1,0 +1,85 @@
+.text-box {
+  background-color: rgb(29, 29, 29);
+  color: rgb(30, 215, 96);
+  border-radius: 10px;
+  /* border: rgb(30, 215, 96);
+  box-shadow: 5px 5px 5px #191414 ; */
+  
+}
+ 
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #191414;
+
+  }
+  
+  header {
+    background-color: #191414;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 24px;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 24px;
+  }
+  
+  .cover-art {
+    width: 400px;
+    height: 400px;
+    border-radius: 2%;
+    overflow: hidden;
+    margin: 12px;
+    box-shadow: 10px 10px 5px #000000;
+  }
+  
+  .song-info {
+    margin: 12px;
+    font-size: 32px;
+    color: rgb(30, 215, 96);
+  }
+  
+  .artist-name {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 6px 0;
+  }
+  
+  .album-name {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  /* Add your media queries here */
+  @media (max-width: 768px) {
+    .cover-art {
+      width: 200px;
+      height: 200px;
+    }
+    
+    .song-info {
+      font-size: 24px;
+    }
+    
+    .artist-name {
+      font-size: 18px;
+    }
+    
+  }
+
